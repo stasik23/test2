@@ -8,3 +8,9 @@ h1{
     font-family: Arial sans-serif;
     font-size: 4rem;
 }
+.cart{
+    width: 100px;
+    height: 50px;
+    background: gray;
+    border-radius: 50%;
+}
