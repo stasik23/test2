@@ -1,6 +1,10 @@
 .row{
     display: flex;
     flex-direction: row;
+
+}
+
+h1{
     font-family: Arial sans-serif;
     font-size: 4rem;
 }
