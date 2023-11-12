@@ -2,22 +2,22 @@
     "users": [
         {
             "id": 1,
-            "name": "Andriy",
-            "sirname": "Moskalenko",
+            "name": "Kostya",
+            "sirname": "Kolesnyk",
             "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/photo.png",
             "balance": 1500
         },
         {
             "id": 2,
-            "name": "Yuriy",
-            "sirname": "Berezovchuk",
+            "name": "Max",
+            "sirname": "Ostapets",
             "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/cat1.png",
             "balance": 5790
         },
         {
             "id": 3,
-            "name": "Cat",
-            "sirname": "Egyptian",
+            "name": "Artem",
+            "sirname": "Farel",
             "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/cat2.jpg",
             "balance": 0
         }
@@ -25,7 +25,7 @@
     "products": [
         {
             "id": 1,
-            "name": "LED display",
+            "name": "Star Wars Jedi Fallen Order",
             "description": "Can display 2-lines X 16-characters. Operate with 5V DC.",
             "price": 92,
             "author_id": 1,
@@ -33,7 +33,7 @@
         },
         {
             "id": 2,
-            "name": "Arduino UNO",
+            "name": "Countre Strike",
             "description": "Brand new and high quality.",
             "price": 180,
             "author_id": 3,
