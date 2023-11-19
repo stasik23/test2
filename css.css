@@ -15,7 +15,7 @@ h1{
 .cart{
     width: 100px;
     height: 100px;
-    background: gray;
+    background: #fff;
     border-radius: 50%;
 }
 main{
