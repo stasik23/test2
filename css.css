@@ -18,8 +18,9 @@ h1{
     border-radius: 50%;
 }
 main{
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: 3;
+    grid-template-columns: 25% 25%;
     grid-template-rows: 3;
     grid-column-gap: 10px;
     grid-row-gap: 1em;
