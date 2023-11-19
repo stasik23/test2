@@ -14,3 +14,7 @@ h1{
     background: gray;
     border-radius: 50%;
 }
+main{
+    display: grid;
+    grid-template-columns: auto;
+}
