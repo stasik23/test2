@@ -19,5 +19,6 @@ h1{
 }
 main{
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 3;
+    grid-template-rows: 3;
 }
