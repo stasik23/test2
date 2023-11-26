@@ -3,6 +3,18 @@
     margin: 0 auto;
 }
 /* first page */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    
+}
 .cart{
     width: 10px;
     height: 10px;
@@ -15,13 +27,18 @@
     justify-content: center;
     align-items: center;
 }
-.row{
+.grid{
     width: 1020px;
     margin: 0 auto;
     padding: 20px 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+}
+.project {
+    display: flex;
+    flex-direction: column;
+
 }
 
 /* navbar */
