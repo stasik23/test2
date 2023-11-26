@@ -37,6 +37,7 @@ h1{
     margin: 0 auto;
     display: grid;
     grid-column: 3;
+    grid-row: auto;
     grid-column-gap: 10px;
     grid-row-gap: 1em;
 }
