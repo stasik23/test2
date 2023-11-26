@@ -30,7 +30,7 @@ h1{
     flex-direction: column;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 3cm 3cm;
+    grid-template-columns: 3cm auto;
     grid-column-gap: 10px;
     grid-row-gap: 1em;
 }
