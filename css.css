@@ -26,6 +26,8 @@ h1{
     align-items: center;
 }
 .row{
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 3cm 3cm;
