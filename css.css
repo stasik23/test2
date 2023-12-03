@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 /* first page */
-.wrapper {
+nav {
     display: flex;
     justify-content: center;
     align-items: center;
