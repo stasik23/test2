@@ -40,16 +40,12 @@ function getProductName(name){
 }
 
 function drawList(product){
-    pokeWrapper.innerHTML = `
+    productWrapper.innerHTML = `
     <div class="card">
-        <div class="title">${product.name}</div>
+        <div class="title">${product.price}</div>
         <hr>
-        <div class="name">${pokemon.name}</div>
+        <div class="name">${product.name}</div>
         <hr>
-        <img class="img" src="${pokemon.sprites.front_default}"/>
-        <hr>
-        <div class="abilities">${pokemon.abilities.map(e=>(e.ability.name))}
-        </div>
     </div>
     `
 }
