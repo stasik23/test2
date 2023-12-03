@@ -10,13 +10,7 @@ function newResponse(URL,){
     xhr.onload = function(){
         state = xhr.response
         console.log(xhr.response);
-        drawList(state)
     }
-}
-
-function seller() {
-
-    
 }
 
 function getProductName(name){
@@ -37,15 +31,4 @@ function getProductName(name){
         getPokemonIp(xhr.response);
       
     }
-}
-
-function drawList(product){
-    productWrapper.innerHTML = `
-    <div class="card">
-        <div class="title">${product.price}</div>
-        <hr>
-        <div class="name">${product.name}</div>
-        <hr>
-    </div>
-    `
 }
